@@ -1,0 +1,70 @@
+/*Cut bar attributes from main css files so that it won't override*/
+nav{
+    display: flex;
+    background-color:plum;
+    font-size: 50px;
+    justify-content: space-between;
+    font-weight: 300;
+    padding: 20px 200px;
+    transition: 0.3s ease;
+    align-items: center;
+    height: 200px;
+}
+
+.bar .link{
+  font-size: 50px;
+  padding: 30px 50px;
+  text-decoration: none;
+  color: white;
+ 
+}
+.bar .link:hover {
+  color: plum;
+  background-color: white;
+ 
+}
+.logo {font-family: cursive;
+font-weight: 900;
+font-size: 100px;
+text-decoration: none;
+color: rgb(255, 255, 255);}
+
+.hamburger{
+display: none;
+}
+
+
+/*Cut for media Query too*/
+@media (max-width: 900px) {
+    nav{
+        display: flex;
+        background-color:plum;
+        font-size: 80px;
+        justify-content: space-between;
+        font-weight: 300;
+        height: 100px;
+        padding: 20px 50px;
+        color: rgb(255, 255, 255);
+        transition: 0.3s;
+    }
+    .hamburger{
+        display: block;}
+        .bar{
+            display: none;
+        }
+        .link{
+            padding-top: 200px;
+        }
+}
+@media (max-width: 500px) {
+    nav {
+        display: flex;
+    }
+    .bar{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+
+}    

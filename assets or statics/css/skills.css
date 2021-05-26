@@ -1,0 +1,29 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.skill{
+    width: 100%;
+    padding: 100px 200px; 
+    transition: 0.3s ease;
+}
+
+.html, .css, .javascript{
+    display: flex; /* for icon and description to be on same line*/
+}
+
+.skill-icon-container{
+    font-size: 80px;
+    width: 20% ;
+    color: plum;
+    margin-bottom: 20px;
+
+}
+
+.skill-description{
+    color: plum;  
+    font-size: 50px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+
+}
